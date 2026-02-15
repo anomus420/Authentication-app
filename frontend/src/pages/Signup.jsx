@@ -35,7 +35,7 @@ export const Signup = () => {
       return handleError('All fields are required');
     }
     try{
-      const url = 'http://localhost:8080/auth/signup';
+      const url = `https://authentication-app-api-henna.vercel.app/auth/signup`;
       const response = await fetch(url , {
         method:"POST",
         headers : {
