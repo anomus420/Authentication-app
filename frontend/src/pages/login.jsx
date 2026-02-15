@@ -29,7 +29,7 @@ export const Login = () => {
       return handleError('All fields are required');
     }
     try {
-      const url = `https:/localhost:8080/authentication-app-api-henna.vercel.app/auth/login`;
+      const url = "https:/localhost:8080/authentication-app-api-henna.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
