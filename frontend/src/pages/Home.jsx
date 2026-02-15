@@ -25,7 +25,7 @@ export const Home = () => {
 
   const fetchProducts = async ()=>{
     try{
-      const url = "https://localhost:8080/authentication-app-api-henna.vercel.app/products";
+      const url = "https://authentication-app-api-henna.vercel.app/products";
       const headers = {
         // method: "GET",
         headers : {
